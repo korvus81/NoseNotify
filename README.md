@@ -1,9 +1,9 @@
 NoseNotify
 ==========
 
-Plugin for [nosetests](https://nose.readthedocs.org/) (most useful when using something like [nosy](http://pypi.python.org/pypi/nosy) to automatically run tests) to provide test results as a desktop notification on linux via notify-send.
+Plugin for [nosetests](https://nose.readthedocs.org/) (most useful when using something like [nosy](http://pypi.python.org/pypi/nosy) to automatically run tests) to provide test results as a desktop notification on linux via notify-send (which is installed by default in Ubuntu and Mint...maybe others?).
 
-Install via "[sudo] python setup.py install", then run nosetests with the --with-nosenotify flag to get a desktop notification for any completed test run.
+Install via `[sudo] python setup.py install`, then run nosetests with the `--with-nosenotify` flag to get a desktop notification for any completed test run.
 
 This plugin currently has no settings, but it's pretty simple.  Hack it to suit your needs, or if you feel a need I'd be glad to accept any pull requests to add configuration.
 
