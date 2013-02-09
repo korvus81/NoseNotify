@@ -8,6 +8,7 @@ Install via "[sudo] python setup.py install", then run nosetests with the --with
 This plugin currently has no settings, but it's pretty simple.  Hack it to suit your needs, or if you feel a need I'd be glad to accept any pull requests to add configuration.
 
 Here is the config I use with [nosy](http://pypi.python.org/pypi/nosy), for reference:
+
     [nosy]
     base_path = ./
     glob_patterns = *.py
